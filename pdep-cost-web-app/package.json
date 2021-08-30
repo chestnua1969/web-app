@@ -1,0 +1,20 @@
+{
+  "name": "pdep-cost-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "author": "The MITRE Corporation",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd client && npm install && cd ../server && npm install",
+    "server": "cd server && node app",
+    "client": "cd client && npm run serve",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.8.0",
+    "prettier": "1.19.1"
+  }
+}

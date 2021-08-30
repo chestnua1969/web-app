@@ -1,0 +1,19 @@
+{
+  "name": "pdep-server",
+  "version": "1.0.0",
+  "description": "Server-side code to run Python optimization scripts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.mitre.org/afgsc/pdep-cost-web-app"
+  },
+  "author": "The MITRE Corporation",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

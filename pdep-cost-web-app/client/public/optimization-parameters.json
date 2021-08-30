@@ -1,0 +1,117 @@
+{
+  "budget": 350000,
+  "aircraft": [
+    {
+      "name": "B-1B",
+      "metrics": [
+        {
+          "key": "AA_rate",
+          "description": "Aircraft availability rate",
+          "value": 0.75
+        },
+        {
+          "key": "total_aircraft",
+          "description": "Total # aircraft in fleet",
+          "value": 62
+        }
+      ],
+      "costs": [
+        {
+          "key": "sust",
+          "description": "Sustainment costs",
+          "cost": 1250
+        },
+        {
+          "key": "ops",
+          "description": "Operations costs",
+          "cost": 500
+        }
+      ],
+      "modernizationOptions": [
+        {
+          "key": "engine",
+          "description": "Engine upgrade",
+          "cost": 250,
+          "implementation": "per aircraft",
+          "impact": {
+            "metric": "AA_rate",
+            "change": 0.05
+          }
+        },
+        {
+          "key": "maintenance",
+          "description": "Maintenance reorg",
+          "cost": 50000,
+          "implementation": "fleet-wide",
+          "impact": {
+            "metric": "AA_rate",
+            "change": 0.1
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "type": "min",
+          "description": "Minimum number of B-1Bs allowed",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "B-52H",
+      "metrics": [
+        {
+          "key": "AA_rate",
+          "description": "Aircraft availability rate",
+          "value": 0.65
+        },
+        {
+          "key": "total_aircraft",
+          "description": "Total # aircraft in fleet",
+          "value": 76
+        }
+      ],
+      "costs": [
+        {
+          "key": "sust",
+          "description": "Sustainment costs",
+          "cost": 1500
+        },
+        {
+          "key": "ops",
+          "description": "Operations costs",
+          "cost": 750
+        }
+      ],
+      "modernizationOptions": [
+        {
+          "key": "engine",
+          "description": "Engine upgrade",
+          "cost": 350,
+          "implementation": "per aircraft",
+          "impact": {
+            "metric": "AA_rate",
+            "change": 0.1
+          }
+        },
+        {
+          "key": "maintenance",
+          "description": "Maintenance reorg",
+          "cost": 65000,
+          "implementation": "fleet-wide",
+          "impact": {
+            "metric": "AA_rate",
+            "change": 0.15
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "type": "min",
+          "description": "Minimum number of B-52Hs allowed",
+          "value": 50
+        }
+      ]
+    }
+  ]
+}

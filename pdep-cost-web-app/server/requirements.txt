@@ -1,0 +1,5 @@
+pandas
+ortools
+tqdm
+matplotlib
+openpyxl

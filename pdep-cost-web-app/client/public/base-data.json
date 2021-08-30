@@ -1,0 +1,218 @@
+[
+  {
+    "name": "All",
+    "budget": 16e6,
+    "aircraftAvailability": 0.44,
+    "aircraftHealth": [
+      {
+        "metric": "Depot Rate",
+        "value": 0.6
+      },
+      {
+        "metric": "UPNR Rate",
+        "value": 0.6
+      },
+      {
+        "metric": "NMCM Rate",
+        "value": 0.6
+      },
+      {
+        "metric": "NMCS Rate",
+        "value": 0.6
+      },
+      {
+        "metric": "NMCB Rate",
+        "value": 0.6
+      }
+    ],
+    "crewHealth": [
+      {
+        "metric": "Crew Ratio",
+        "value": 1.14
+      },
+      {
+        "metric": "Manning",
+        "value": 0.94
+      }
+    ],
+    "missileHealth": [
+      {
+        "metric": "ALCM Inventory",
+        "value": 500
+      },
+      {
+        "metric": "FMC ALCM Inventory",
+        "value": 400
+      },
+      {
+        "metric": "Pylon Inventory",
+        "value": 500
+      },{
+        "metric": "CSRL Inventory",
+        "value": 500
+      }
+    ]
+  },
+  {
+    "name": "Barksdale",
+    "budget": 5e6,
+    "aircraftAvailability": 0.42,
+    "aircraftHealth": [
+      {
+        "metric": "Depot Rate",
+        "value": 0.39
+      },
+      {
+        "metric": "UPNR Rate",
+        "value": 0.55
+      },
+      {
+        "metric": "NMCM Rate",
+        "value": 0.23
+      },
+      {
+        "metric": "NMCS Rate",
+        "value": 0.25
+      },
+      {
+        "metric": "NMCB Rate",
+        "value": 0.24
+      }
+    ],
+    "crewHealth": [
+      {
+        "metric": "Crew Ratio",
+        "value": 1.15
+      },
+      {
+        "metric": "Manning",
+        "value": 0.9
+      }
+    ],
+    "missileHealth": [
+      {
+        "metric": "ALCM Inventory",
+        "value": 200
+      },
+      {
+        "metric": "FMC ALCM Inventory",
+        "value": 180
+      },
+      {
+        "metric": "Pylon Inventory",
+        "value": 140
+      },{
+        "metric": "CSRL Inventory",
+        "value": 140
+      }
+    ]
+  },
+  {
+    "name": "Ellsworth",
+    "budget": 6e6,
+    "aircraftAvailability": 0.39,
+    "aircraftHealth": [
+      {
+        "metric": "Depot Rate",
+        "value": 0.52
+      },
+      {
+        "metric": "UPNR Rate",
+        "value": 0.55
+      },
+      {
+        "metric": "NMCM Rate",
+        "value": 0.19
+      },
+      {
+        "metric": "NMCS Rate",
+        "value": 0.08
+      },
+      {
+        "metric": "NMCB Rate",
+        "value": 0.09
+      }
+    ],
+    "crewHealth": [
+      {
+        "metric": "Crew Ratio",
+        "value": 1.18
+      },
+      {
+        "metric": "Manning",
+        "value": 0.97
+      }
+    ],
+    "missileHealth": [
+      {
+        "metric": "ALCM Inventory",
+        "value": 150
+      },
+      {
+        "metric": "FMC ALCM Inventory",
+        "value": 125
+      },
+      {
+        "metric": "Pylon Inventory",
+        "value": 130
+      },{
+        "metric": "CSRL Inventory",
+        "value": 130
+      }
+    ]
+  },
+  {
+    "name": "Minot",
+    "budget": 5e6,
+    "aircraftAvailability": 0.44,
+    "aircraftHealth": [
+      {
+        "metric": "Depot Rate",
+        "value": 0.63
+      },
+      {
+        "metric": "UPNR Rate",
+        "value": 0.25
+      },
+      {
+        "metric": "NMCM Rate",
+        "value": 0.17
+      },
+      {
+        "metric": "NMCS Rate",
+        "value": 0.23
+      },
+      {
+        "metric": "NMCB Rate",
+        "value": 0.2
+      }
+    ],
+    "crewHealth": [
+      {
+        "metric": "Crew Ratio",
+        "value": 1.05
+      },
+      {
+        "metric": "Manning",
+        "value": 0.87
+      }
+    ],
+    "missileHealth": [
+      {
+        "metric": "ALCM Inventory",
+        "value": 100
+      },
+      {
+        "metric": "FMC ALCM Inventory",
+        "value": 80
+      },
+      {
+        "metric": "Pylon Inventory",
+        "value": 100
+      },{
+        "metric": "CSRL Inventory",
+        "value": 100
+      }
+    ]
+  }
+]
